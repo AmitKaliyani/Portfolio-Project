@@ -32,7 +32,7 @@ function Contact() {
                      pattern:{value:/^[a-zA-Z]+/,message:"Alphabets Only"}})}
                     onBlur={()=>trigger('username')}
                 />
-            {errors.username && <span className='text-red-700'>{errors.username.message}</span>}
+            {errors.username && <span className='text-red-700 text-xs'>{errors.username.message}</span>}
 
             </div>
 
@@ -49,7 +49,7 @@ function Contact() {
                       })}
                        onBlur={()=>trigger('email')}
                 />
-            {errors.email && <span className='text-red-700'>{errors.email.message}</span>}
+            {errors.email && <span className='text-red-700 text-xs'>{errors.email.message}</span>}
             </div>
 
             <div className="flex flex-col">
@@ -62,7 +62,7 @@ function Contact() {
                                 {...register("message", { required: "Message is required" })}
                                 onBlur={()=>trigger("message")}
                             />
-                            {errors.message && <span className='text-red-700'>{errors.message.message}</span>}
+                            {errors.message && <span className='text-red-700 text-xs'>{errors.message.message}</span>}
             </div>
 
             <button
