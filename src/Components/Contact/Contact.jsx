@@ -12,7 +12,7 @@ function Contact() {
    }
 
   return (
-    <div className='container bg-gray-900 text-white mx-auto h-auto max-w-full flex flex-col items-center justify-start px-8 py-16'>
+    <div id='contact' className='container bg-gray-900 text-white mx-auto h-auto max-w-full flex flex-col items-center justify-start px-8 py-16'>
        <h1 className='text-4xl text-center font-bold'>Contact Me </h1>
       
        <div className="container mx-auto px-4 py-8">

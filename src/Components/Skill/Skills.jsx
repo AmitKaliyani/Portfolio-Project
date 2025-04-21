@@ -8,7 +8,7 @@ import Tailwind from '../../assets/Images/tailwind.png'
 
 function Skills() {
   return (
-    <div className="container bg-gray-900 text-white mx-auto h-auto max-w-full flex flex-col items-center justify-between px-8 pb-16 pt-18">
+    <div id='skills' className="container bg-gray-900 text-white mx-auto h-auto max-w-full flex flex-col items-center justify-between px-8 pb-16 pt-18">
     <h1 className="mb-16 text-4xl font-bold"> My Skills </h1>
   
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">

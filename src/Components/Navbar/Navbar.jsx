@@ -25,21 +25,21 @@ function Navbar() {
         <div className="hidden md:flex items-center space-x-8">
           <ul className="flex space-x-6">
             <li>
-              <Link to="/" className="hover:text-pink-600 transition duration-300" onClick={closeMenu}>Home</Link>
+              <a href='#home' className="hover:text-pink-600 transition duration-300" onClick={closeMenu}>Home</a>
             </li>
             <li>
-              <Link to="/about" className="hover:text-pink-600 transition duration-300" onClick={closeMenu}>About</Link>
+              <a href='#about' className="hover:text-pink-600 transition duration-300 scroll-smooth" onClick={closeMenu}>About</a>
             </li>
             <li>
-              <Link to="skills" className="hover:text-pink-600 transition duration-300" onClick={closeMenu}>Skills</Link>
+              <a href='#skills' className="hover:text-pink-600 transition duration-300" onClick={closeMenu}>Skills</a>
             </li>
             <li>
-              <Link to="/projects" className="hover:text-pink-600 transition duration-300" onClick={closeMenu}>Projects</Link>
+              <a href='#project' className="hover:text-pink-600 transition duration-300" onClick={closeMenu}>Projects</a>
             </li>
           </ul>
-          <div className="bg-pink-600 text-white px-4 py-1 rounded-xl cursor-pointer hover:bg-pink-700 transition duration-300">
+          <a href='#contact' className="bg-pink-600 text-white px-4 py-1 rounded-xl cursor-pointer hover:bg-pink-700 transition duration-300">
             <span>Contact Me</span>
-          </div>
+          </a>
         </div>
 
        

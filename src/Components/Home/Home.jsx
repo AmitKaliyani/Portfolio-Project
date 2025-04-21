@@ -4,7 +4,7 @@ import Img1 from '../../assets/Images/hero.jpeg'
 function Home() {
   return (
 
-<div className="container bg-gray-900 text-white mx-auto h-auto max-w-full flex flex-col sm:flex-row items-center justify-between px-8 pb-16 pt-24">
+<div id='home' className="container bg-gray-900 text-white mx-auto h-auto max-w-full flex flex-col sm:flex-row items-center justify-between px-8 pb-16 pt-24">
   
   {/* Left Section */}
   <div className="left w-full md:w-1/2 mt-16 md:mt-0 sm:px-6 md:px-10">
